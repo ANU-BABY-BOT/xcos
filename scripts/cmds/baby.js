@@ -192,7 +192,7 @@ module.exports.onStart = async ({ api, event, args }) => {
 module.exports.onChat = async ({ api, event }) => {
   const { threadID, messageID, body, senderID } = event;
 
-  const cMessages = ["🎀 Hello bby!", "🎀 Hi there!", "🎀 Hey! How can I help?"];
+  const cMessages = ["🎀 AMAR BOSS AYAN BUSY 🎀", "🎀 AYAN KE I LOVE U BOLO 🎀!", "🎀 AYAN KE UMMMMMMMMMMAH DEO🎀"];
   const userInput = body.toLowerCase().trim();
 
   const keywords = ["bby", "baby", "bot", "বট", "robot"];
